@@ -2,4 +2,4 @@ services:
     app:
       image: ghcr.io/orrnobmahmud/moonbixauto
       volumes:
-        - ./data.txt:/app/moonbixauto/data.txt
+        - /etc/secrets/data.txt:/app/moonbixauto/data.txt
