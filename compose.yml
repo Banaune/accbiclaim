@@ -3,3 +3,5 @@ services:
       image: ghcr.io/orrnobmahmud/moonbixauto
       volumes:
         - /etc/secrets/data.txt:/app/moonbixauto/data.txt
+      ports:
+        - "8080:80"
