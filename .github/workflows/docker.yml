@@ -25,5 +25,5 @@ jobs:
 
       - name: 'Build Inventory Image'
         run: |
-          docker build . --tag ghcr.io/orrnobmahmud/moonbixauto:latest
-          docker push ghcr.io/orrnobmahmud/moonbixauto:latest
+          docker build . --tag ghcr.io/banaune/accbiclaim:latest
+          docker push ghcr.io/banaune/accbiclaim:latest
